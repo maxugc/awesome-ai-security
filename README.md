@@ -11,6 +11,11 @@ Essential machine learning concepts and courses to build a foundation before div
 - [fast.ai Practical Deep Learning for Coders](https://course.fast.ai/) - Free, top-down approach to deep learning with PyTorch. Covers computer vision, NLP, and tabular data with hands-on Jupyter notebooks.
 - [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning) - A fantastic 5-course series on neural networks and deep learning fundamentals—beginner-friendly and taught by AI pioneer Andrew Ng. Auditable for free.
 
+### Hands-On AI Security Training
+Practical, interactive labs to learn AI security through doing.
+
+- [RansomLeak AI Security Training](https://ransomleak.com/catalogue/ai-security/) - Browser-based hands-on labs covering prompt injection, LLM attacks, jailbreaking, and AI-powered security threats with real-world attack scenarios. No installation required.
+
 ### Deep Learning
 Deep dive into neural networks, transformers, and the architectures behind modern AI systems.
 
