@@ -85,6 +85,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Agent-Wiz](https://github.com/Repello-AI/Agent-Wiz) - Repello AI's open-source CLI that extracts agentic workflows from LangChain/LangGraph/CrewAI/AutoGen and runs automated threat modeling against the resulting graphs.
 - [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, prompt-injection) for systematic AI security testing.
 - [SkilLock](https://github.com/skills-lock/skil-lock) - Behavior-pinning lockfile and capability-delta PR review for Claude Code and Codex agent skills; blocks unapproved drift (shell, network, file access) in CI with SARIF output for Code Scanning.
+- [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Security scanner for AI agent skills: flags prompt injection, dangerous shell, and secret access before you install.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
