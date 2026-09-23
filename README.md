@@ -96,6 +96,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Koma](https://github.com/swnotmetal/Project-Koma) - A zero-dependency AI firewall especially for Node.js & TypeScript. Drop-in defense for prompt injection, voice hallucinations, and RAG data scraping.
 - [SkilLock](https://github.com/skills-lock/skil-lock) - Behavior-pinning lockfile and capability-delta PR review for Claude Code and Codex agent skills; blocks unapproved drift (shell, network, file access) in CI with SARIF output for Code Scanning.
 - [Nika](https://github.com/supernovae-st/nika) - Rust workflow engine for AI with verifiable execution: hash-chained tamper-evident run traces, default-deny permit allowlists (shell, network, file, tool), and static secret-flow analysis that blocks exfiltration paths before a run starts.
+- [sofagent](https://github.com/KongFangXun/sofagent) - Open-source harness for governing AI coding agents: 24 commit-time audit rules over git diffs (secrets, out-of-scope edits, prompt injection) with HMAC-signed audit trail and snapshot rollback; a full MCP toolset.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
