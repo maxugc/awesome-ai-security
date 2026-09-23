@@ -1,8 +1,30 @@
 # Awesome AI Security
 
-A curated, annotated list of resources for AI security.
+[![Interactive version](https://img.shields.io/badge/Interactive%20version-floatingpragma.io-a855f7?style=for-the-badge)](https://floatingpragma.io/awesome-ai-security/)
+[![Awesome ZK Proofs](https://img.shields.io/badge/Also%20see-Awesome%20ZK%20Proofs-38d4f5?style=for-the-badge)](https://floatingpragma.io/awesome-zk-proofs/)
 
-**[View the interactive roadmap](https://floatingpragma.io/awesome-ai-security)**
+> **[Browse the interactive version](https://floatingpragma.io/awesome-ai-security/)** — the same list as a
+> learning path with two tracks, a filter, and a link for every topic.
+
+A curated, annotated list of resources for AI security: prompt injection, adversarial machine
+learning, model privacy, AI red teaming, and using AI for offensive and defensive security work.
+
+## Contributing
+
+**This README is generated. Edits to it are overwritten on the next build.**
+
+Add your resource to [`src/data/raw_resources.json`](src/data/raw_resources.json) with a `title`,
+`url`, one-sentence `description` and a `category`, then run:
+
+```bash
+node scripts/map_data.cjs && node scripts/layout_pyramid.cjs && npm run awesome
+```
+
+Commit the regenerated `README.md`, `nodes.json` and `graphData.ts` along with your change. A pull
+request that touches only `README.md` cannot reach the website, which is built from the same source
+data. See [CONTRIBUTION.md](CONTRIBUTION.md).
+
+<!-- AWESOME_LIST:START -->
 
 ### ML Foundations
 Essential machine learning concepts and courses to build a foundation before diving into AI security.
@@ -178,6 +200,9 @@ Newsletters and awesome lists to stay current with AI security developments.
 - [ottosulin/awesome-ai-security](https://github.com/ottosulin/awesome-ai-security) - Offensive tools and labs awesome list.
 - [ElNiak/awesome-ai-cybersecurity](https://github.com/ElNiak/awesome-ai-cybersecurity) - AI in cybersecurity awesome list.
 - [corca-ai/awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) - LLM-specific security awesome list.
+
+<!-- AWESOME_LIST:END -->
+
 ---
 
 © [muellerberndt](https://twitter.com/muellerberndt) · [GitHub](https://github.com/muellerberndt)

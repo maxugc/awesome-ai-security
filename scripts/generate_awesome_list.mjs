@@ -25,12 +25,6 @@ const sanitize = (text) => {
 
 const buildAwesomeList = (graphData) => {
   const lines = [];
-  lines.push('# Awesome AI Security');
-  lines.push('');
-  lines.push('A curated, annotated list of resources for AI security.');
-  lines.push('');
-  lines.push('**[View the interactive roadmap](https://floatingpragma.io/awesome-ai-security)**');
-  lines.push('');
 
   const seen = new Set();
 
@@ -64,18 +58,36 @@ const buildAwesomeList = (graphData) => {
   return lines.join('\n').trim();
 };
 
+const START = '<!-- AWESOME_LIST:START -->';
+const END = '<!-- AWESOME_LIST:END -->';
+
+const footer = [
+  '',
+  '---',
+  '',
+  '\u00a9 [muellerberndt](https://twitter.com/muellerberndt) \u00b7 [GitHub](https://github.com/muellerberndt)',
+  ''
+].join('\n');
+
+// When the README carries the markers, only the block between them is
+// regenerated and every hand-written line around it survives. Without them the
+// whole file is written, which is what a fresh repository wants.
 const updateReadme = (generated) => {
-  const footer = [
-    '',
-    '---',
-    '',
-    '© [muellerberndt](https://twitter.com/muellerberndt) · [GitHub](https://github.com/muellerberndt)',
-    ''
-  ].join('\n');
+  const existing = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf8') : '';
+  const start = existing.indexOf(START);
+  const end = existing.indexOf(END);
+
+  if (start !== -1 && end !== -1 && end > start) {
+    const next = `${existing.slice(0, start + START.length)}\n\n${generated}\n\n${existing.slice(end)}`;
+    fs.writeFileSync(readmePath, next);
+    console.log('Awesome list written between the AWESOME_LIST markers in README.md');
+    return;
+  }
+
   fs.writeFileSync(readmePath, `${generated}${footer}`);
+  console.log('Awesome list written to README.md');
 };
 
 const graphData = readGraphData();
 const awesomeList = buildAwesomeList(graphData);
 updateReadme(awesomeList);
-console.log('Awesome list written to README.md');
