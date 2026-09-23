@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Awesome AI Security">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="60%" stop-color="#38d4f5"/>
+      <stop offset="100%" stop-color="#fb5a78"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#08080b"/>
+  <path d="M50 18 L76 28 V50 C76 66 64 77 50 83 C36 77 24 66 24 50 V28 Z"
+        fill="none" stroke="url(#g)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M38 50 L47 59 L64 41" fill="none" stroke="url(#g)" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
