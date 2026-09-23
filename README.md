@@ -1,4 +1,3 @@
-
 # Awesome AI Security
 
 A curated, annotated list of resources for AI security.
@@ -11,11 +10,6 @@ Essential machine learning concepts and courses to build a foundation before div
 - [Stanford CS229: Machine Learning](https://cs229.stanford.edu/) - Stanford's foundational ML course covering supervised learning, deep learning, generalization, and unsupervised learning. Taught by leaders in the field.
 - [fast.ai Practical Deep Learning for Coders](https://course.fast.ai/) - Free, top-down approach to deep learning with PyTorch. Covers computer vision, NLP, and tabular data with hands-on Jupyter notebooks.
 - [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning) - A fantastic 5-course series on neural networks and deep learning fundamentals—beginner-friendly and taught by AI pioneer Andrew Ng. Auditable for free.
-
-### Hands-On AI Security Training
-Practical, interactive labs to learn AI security through doing.
-
-- [RansomLeak AI Security Training](https://ransomleak.com/catalogue/ai-security/) - Browser-based hands-on labs covering prompt injection, LLM attacks, jailbreaking, and AI-powered security threats with real-world attack scenarios. No installation required.
 
 ### Deep Learning
 Deep dive into neural networks, transformers, and the architectures behind modern AI systems.
@@ -35,12 +29,20 @@ Understand prompt injection attacks that manipulate LLM behavior through crafted
 - [Rebuff](https://github.com/protectai/rebuff) - Self-hardening prompt injection detector by ProtectAI.
 - [Garak](https://github.com/NVIDIA/garak) - NVIDIA's LLM vulnerability scanner with dozens of plugins testing for jailbreaks, prompt injection, data leakage, and more.
 - [Vigil LLM](https://github.com/deadbits/vigil-llm) - Detects prompt injections and risky inputs.
-- [Sentinel Scan CLI](https://github.com/Ventrova/sentinel-scan-cli) - Free CLI that runs a 15-attack prompt-injection/jailbreak suite against your own LLM endpoint in about a minute. No signup, no telemetry, no API key required.
 - [EasyJailbreak](https://github.com/EasyJailbreak/EasyJailbreak) - Framework for adversarial jailbreak prompts.
 - [Prompt Shield](https://github.com/mthamil107/prompt-shield) - Open-source prompt injection detection engine with 27 detectors and cross-domain techniques from bioinformatics and forensic linguistics.
-- [AI Village @ DEF CON](https://aivillage.org/) - Challenges like LLM Jailbreak and AI security research.
 - [Agent Browser Shield](https://github.com/pixiebrix/agent-browser-shield) - Browser extension that strips prompt injection (hidden text and HTML comments) from web pages before an AI agent's model sees them; also masks PII and removes dark patterns.
-- [hego.red](https://hego.red/) - Practical, hands-on guide to AI/LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG, agents, and a full methodology.
+- [AI Village @ DEF CON](https://aivillage.org/) - Challenges like LLM Jailbreak and AI security research.
+- [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) - Systematic red teaming findings and public dataset. Anthropic, arXiv:2209.07858, 2022.
+- [OWASP Top 10 for LLM Applications 2025](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Critical risks including prompt injection, sensitive info disclosure, supply chain, and data poisoning.
+- [JailbreakBench](https://jailbreakbench.github.io/) - Benchmark for LLM jailbreak attacks and defenses.
+- [LLM Security Papers (chawins/llm-sp)](https://github.com/chawins/llm-sp) - Papers and resources on LLM security and privacy including indirect prompt injection research.
+- [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) - SDKs and integration contracts for a guard that screens AI-agent tool calls for prompt injection, credential leakage and exfiltration before execution.
+- [hego.red](https://hego.red/) - Hands-on notes on LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG and agent testing, with a scoping methodology and worked labs.
+- [Koma](https://github.com/swnotmetal/Project-Koma) - Zero-dependency Node.js and TypeScript library that filters prompt injection, audio hallucinations and RAG scraping at the application boundary.
+- [Sentinel Scan CLI](https://github.com/Ventrova/sentinel-scan-cli) - CLI and MCP server that scans MCP manifests for tool poisoning and rug-pulls, and runs a prompt injection and jailbreak suite against your own LLM endpoint.
+- [RansomLeak AI Security Training](https://ransomleak.com/catalogue/ai-security/) - Browser-based labs on prompt injection, jailbreaking and LLM attack scenarios, mapped to the OWASP Top 10 for LLM and agentic AI. Commercial training.
+- [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies.
 
 ### Adversarial Attacks
 Learn how adversarial examples fool neural networks and methods to defend against them.
@@ -63,7 +65,6 @@ Data poisoning attacks and neural network backdoors that compromise model integr
 - [Poisoning Attacks Need Only a Few Points](https://arxiv.org/abs/2510.07192) - Constant-size poisoning effective even on web-scale models. arXiv:2510.07192, 2025.
 - [MNTD: Detecting AI Trojans Using Meta Neural Analysis](https://arxiv.org/abs/1910.03137) - Black-box Trojan detection with high AUC. arXiv:1910.03137, 2021.
 - [Beatrix: Robust Backdoor Detection via Gram Matrices](https://www.ndss-symposium.org/wp-content/uploads/2024/09/2023-69-slides.pdf) - Activation-based detection effective against advanced backdoors. NDSS 2024.
-- [OWASP Top 10 for LLM Applications 2025](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Critical risks including prompt injection, sensitive info disclosure, supply chain, and data poisoning.
 
 ### Privacy & Extraction
 Model extraction, membership inference, and training data extraction attacks.
@@ -76,32 +77,26 @@ Model extraction, membership inference, and training data extraction attacks.
 - [Membership Inference Attacks on Large-Scale Models: A Survey](https://arxiv.org/abs/2503.19338) - MIAs targeting LLMs and LMMs across pre-training, fine-tuning, and RAG. arXiv:2503.19338, 2025.
 - [TrustLLM Benchmark](https://trustllmbenchmark.github.io/TrustLLM-Website/) - Comprehensive trustworthiness benchmark spanning truthfulness, safety, fairness, robustness, privacy, and ethics.
 - [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks) - Curated list of 100+ papers on privacy attacks against machine learning.
-- [LLM Security Papers (chawins/llm-sp)](https://github.com/chawins/llm-sp) - Papers and resources on LLM security and privacy including indirect prompt injection research.
+- [SecuredAI](https://securedai.com/) - Client-side prompt DLP for privacy: detects and masks PII and PHI before a prompt reaches the model, then restores the originals locally. Commercial.
 
 ### Tools & Frameworks
 Security tools for testing and defending AI systems against adversarial attacks.
 
 - [APort](https://aport.io) - AI agent identity verification and policy enforcement for autonomous systems.
-- [Bifrost Edge](https://github.com/maximhq/bifrost) - Endpoint governance for AI apps and MCP servers with guardrails, approvals, audit logs, and device management.
-
-- [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) - Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call detection before execution.
 - [Counterfit](https://github.com/Azure/counterfit) - Microsoft penetration testing tool for ML systems.
-- [AI Coding Tools Exploded in 2025: The First Security Exploits Followed](https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/) - Discusses vulnerabilities in AI-generated code.
-- [AI Agent Exploit Generation in Smart Contracts](https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation) - Autonomous exploit generation using LLMs.
-- [AI-Powered Attack Automation: When Machine Learning Writes the Exploit Code](https://medium.com/@instatunnel/wwai-powered-attack-automation-when-machine-learning-writes-the-exploit-code-9eb00af91a51) - Projections on AI-driven cyberattacks.
+- [Whistleblower](https://github.com/Repello-AI/whistleblower) - Repello AI's offensive tool for testing LLM applications against system prompt leakage attacks.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA programmable guardrails for LLM safety and security.
 - [SecML](https://secml.readthedocs.io/) - Secure and explainable ML library with attacks and defenses.
 - [Purple Llama (Meta)](https://github.com/meta-llama/PurpleLlama) - Open-source LLM safety tools including Llama Guard, Prompt Guard, Code Shield, and CyberSec Eval benchmarks.
-- [Agent-Wiz](https://github.com/Repello-AI/Agent-Wiz) - Repello AI's open-source CLI that extracts agentic workflows from LangChain/LangGraph/CrewAI/AutoGen and runs automated threat modeling against the resulting graphs.
-- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, prompt-injection) for systematic AI security testing.
-- [Koma](https://github.com/swnotmetal/Project-Koma) - A zero-dependency AI firewall especially for Node.js & TypeScript. Drop-in defense for prompt injection, voice hallucinations, and RAG data scraping.
-- [SkilLock](https://github.com/skills-lock/skil-lock) - Behavior-pinning lockfile and capability-delta PR review for Claude Code and Codex agent skills; blocks unapproved drift (shell, network, file access) in CI with SARIF output for Code Scanning.
-- [Nika](https://github.com/supernovae-st/nika) - Rust workflow engine for AI with verifiable execution: hash-chained tamper-evident run traces, default-deny permit allowlists (shell, network, file, tool), and static secret-flow analysis that blocks exfiltration paths before a run starts.
-- [sofagent](https://github.com/KongFangXun/sofagent) - Open-source harness for governing AI coding agents: 24 commit-time audit rules over git diffs (secrets, out-of-scope edits, prompt injection) with HMAC-signed audit trail and snapshot rollback; a full MCP toolset.
-- [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Python SDK that verifies an AI agent's outbound calls and MCP handoffs against a source of truth using zero-knowledge proofs, then blocks anything not on the trusted-endpoint allow-list and logs every call.
-- [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Security scanner for AI agent skills: flags prompt injection, dangerous shell, and secret access before you install.
-- [SecuredAI](https://securedai.com/) - Client-side prompt DLP that detects and masks PII/PHI before prompts reach the model (OpenAI/DeepSeek), restoring the originals locally via a zero-knowledge vault.
-- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
+- [Agent-Wiz](https://github.com/Repello-AI/Agent-Wiz) - CLI that extracts agent workflows from LangChain, LangGraph, CrewAI and AutoGen and runs threat modeling over the resulting graphs.
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - LLM evaluation framework with 50+ metrics, LLM-as-judge and guardrail scanners covering injection, PII and unsafe-output checks.
+- [SkilLock](https://github.com/skills-lock/skil-lock) - Behavior-pinning lockfile and capability-delta review for agent skills; blocks unapproved drift in shell, network and file access in CI with SARIF output.
+- [Nika](https://github.com/supernovae-st/nika) - Rust workflow engine for AI runs with hash-chained execution traces, default-deny allowlists for shell, network, file and tool access, and static secret-flow analysis.
+- [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Python SDK that checks an agent's tool calls and MCP handoffs against a trusted-endpoint allowlist and records the provenance of each answer.
+- [AI Security Registry](https://forefy.com/asr) - Registry of skills, goals and workflows for AI agents, with git-pinned versions reviewed before each update.
+- [sofagent](https://github.com/KongFangXun/sofagent) - Harness for governing AI coding agents: commit-time audit rules over git diffs, an HMAC-signed audit trail and snapshot rollback, exposed as an MCP toolset.
+- [Bifrost](https://github.com/maximhq/bifrost) - AI gateway unifying access to model providers and MCP servers, with guardrails, approvals, audit logs and access control at the edge.
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for secrets that AI-generated code inlines into the client bundle, separating public browser credentials from real leaks.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
@@ -112,10 +107,12 @@ Using AI assistants and agents for automated penetration testing and security as
 - [9 AI Enabled Cybersecurity Tools in 2025](https://www.packetlabs.net/posts/9-ai-enabled-cybersecurity-tools-in-2025/) - Includes PenTest++ and CIPHER for ethical hacking.
 - [Top AI Pentesting Tools in 2025: PentestGPT vs. Penligent vs. PentestAI](https://www.penligent.ai/hackinglabs/top-ai-pentesting-tools-in-2025-pentestgpt-vs-penligent-vs-pentestai-reviewed/) - Comparison of features and automation.
 - [PentestGPT: An LLM-empowered Automatic Penetration Testing Tool](https://arxiv.org/abs/2308.06782) - Design and evaluation of autonomous pentesting. arXiv:2308.06782, 2024.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open-source autonomous pentest platform with specialist agents for web, API, Active Directory, Kubernetes, IoT and LLM/MCP endpoints. Runs against a local model and proves each finding with a reproduction.
 
 ### Vulnerability Detection
 AI-powered vulnerability scanning, code analysis, and bug detection.
 
+- [AI Coding Tools Exploded in 2025: The First Security Exploits Followed](https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/) - Discusses vulnerabilities in AI-generated code.
 - [A Survey of Bugs in AI-Generated Code](https://arxiv.org/abs/2512.05239) - Empirical study on functional and security bugs. arXiv:2512.05239, 2025.
 - [Exploring the Role of Generative AI in Enhancing Cybersecurity](https://www.sciencedirect.com/science/article/pii/S2590005625001365) - GenAI for vulnerability detection and secure coding. Computers & Security, 2025.
 - [GhidraGPT](https://github.com/ZeroDaysBroker/GhidraGPT) - Integrates GPT models into Ghidra for automated code analysis, vulnerability detection, and explanation generation.
@@ -128,12 +125,13 @@ AI-powered vulnerability scanning, code analysis, and bug detection.
 AI-assisted exploit development and attack automation techniques.
 
 - [LLM Agents can Autonomously Exploit One-day Vulnerabilities](https://arxiv.org/abs/2404.08144) - GPT-4 agents can exploit real CVEs given descriptions. Raises questions about LLM deployment. arXiv:2404.08144, 2024.
+- [AI Agent Exploit Generation in Smart Contracts](https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation) - Autonomous exploit generation using LLMs.
 - [OWASP Gen AI Incident & Exploit Round-up, Q2'25](https://genai.owasp.org/2025/07/14/owasp-gen-ai-incident-exploit-round-up-q225/) - Tracks exploits targeting/involving GenAI.
+- [AI-Powered Attack Automation: When Machine Learning Writes the Exploit Code](https://medium.com/@instatunnel/wwai-powered-attack-automation-when-machine-learning-writes-the-exploit-code-9eb00af91a51) - Projections on AI-driven cyberattacks.
 
 ### AI Security Tools
 Tools that leverage AI for offensive security operations and analysis.
 
-- [AI Security Registry](https://forefy.com/asr) - Secured registry of skills, goals, and dynamic workflows for AI agents, git-pinned and human-reviewed before updates.
 - [Hound](https://github.com/scabench-org/hound) - AI auditor that builds adaptive knowledge graphs for deep code reasoning. Uses tiered AI approach for autonomous vulnerability discovery.
 - [HackGPT](https://github.com/NoDataFound/hackGPT) - LLM toolkit for offensive security.
 - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) - Autonomous red-teaming agent with benchmarks.
@@ -141,21 +139,19 @@ Tools that leverage AI for offensive security operations and analysis.
 - [PyRIT (Python Risk Identification Tool)](https://github.com/Azure/PyRIT) - Microsoft red-teaming framework for generative AI. Automates adversarial prompt generation and risk assessment.
 - [AI Security Analyzer](https://github.com/xvnpw/ai-security-analyzer) - Generates security docs from codebases.
 - [BurpGPT](https://github.com/aress31/burpgpt) - Burp Suite extension for AI-powered vulnerability scanning.
-- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open-source autonomous AI penetration testing platform and MCP host with per-technology offensive sub-agents (GraphQL, Spring, .NET, Node, PHP, Ruby, WordPress), Active Directory and Kubernetes coverage, and an evidence trail per finding. Orchestrates 80+ offensive tools via MCP.
 - [CAI: Cybersecurity AI](https://github.com/aliasrobotics/cai) - Framework for building AI-driven security tools by Alias Robotics.
-- [Whistleblower](https://github.com/Repello-AI/whistleblower) - Repello AI's offensive tool for testing LLM applications against system prompt leakage attacks.
 
 ### Benchmarks & Standards
 Industry standards, threat frameworks, and evaluation benchmarks for AI security.
 
 - [ScaBench](https://github.com/scabench-org/scabench) - Smart contract audit benchmark with 500+ real-world vulnerabilities from Code4rena, Cantina, and Sherlock for evaluating AI audit agents.
+- [International AI Safety Report 2025](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025) - Summarizes evidence on general-purpose AI safety, including robustness.
 - [RobustBench](https://robustbench.github.io/) - Leaderboard for adversarial robustness benchmarking.
-- [JailbreakBench](https://jailbreakbench.github.io/) - Benchmark for LLM jailbreak attacks and defenses.
 - [Stanford AIR-Bench 2024](https://crfm.stanford.edu/helm/air-bench/latest/) - AI safety benchmark aligned with emerging government regulations and company policies.
 - [FLI AI Safety Index 2024](https://futureoflife.org/wp-content/uploads/2024/12/AI-Safety-Index-2024-Full-Report-11-Dec-24.pdf) - Future of Life Institute's assessment of AI company safety practices and accountability.
 - [MITRE ATLAS](https://atlas.mitre.org/) - Adversarial Threat Landscape for AI Systems. Threat matrix documenting real-world attacks on ML (like ATT&CK for AI).
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - Framework for managing AI risks throughout the AI lifecycle.
-- [Agent Threat Rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - Open MIT-licensed detection-rule standard for AI agent threats (prompt injection, tool poisoning, MCP attacks, context exfiltration) across 10 categories, with MITRE ATLAS and OWASP crosswalks.
+- [Agent Threat Rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - Open detection-rule standard for AI agent threats across ten categories, with MITRE ATLAS and OWASP crosswalks. Sigma-style executable rules, MIT-licensed.
 
 ### Books
 Essential books covering AI security, adversarial ML, and security applications.

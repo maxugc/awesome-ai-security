@@ -157,11 +157,95 @@ export const graphData: NodeData[] = [
         "description": "Framework for adversarial jailbreak prompts."
       },
       {
+        "title": "Prompt Shield",
+        "url": "https://github.com/mthamil107/prompt-shield",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Open-source prompt injection detection engine with 27 detectors and cross-domain techniques from bioinformatics and forensic linguistics."
+      },
+      {
+        "title": "Agent Browser Shield",
+        "url": "https://github.com/pixiebrix/agent-browser-shield",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Browser extension that strips prompt injection (hidden text and HTML comments) from web pages before an AI agent's model sees them; also masks PII and removes dark patterns."
+      },
+      {
         "title": "AI Village @ DEF CON",
         "url": "https://aivillage.org/",
         "type": "Article",
         "rating": 8,
         "description": "Challenges like LLM Jailbreak and AI security research."
+      },
+      {
+        "title": "Red Teaming Language Models to Reduce Harms",
+        "url": "https://arxiv.org/abs/2209.07858",
+        "type": "Paper",
+        "rating": 8,
+        "description": "Systematic red teaming findings and public dataset. Anthropic, arXiv:2209.07858, 2022."
+      },
+      {
+        "title": "OWASP Top 10 for LLM Applications 2025",
+        "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+        "type": "Article",
+        "rating": 8,
+        "description": "Critical risks including prompt injection, sensitive info disclosure, supply chain, and data poisoning."
+      },
+      {
+        "title": "JailbreakBench",
+        "url": "https://jailbreakbench.github.io/",
+        "type": "Article",
+        "rating": 8,
+        "description": "Benchmark for LLM jailbreak attacks and defenses."
+      },
+      {
+        "title": "LLM Security Papers (chawins/llm-sp)",
+        "url": "https://github.com/chawins/llm-sp",
+        "type": "Paper",
+        "rating": 8,
+        "description": "Papers and resources on LLM security and privacy including indirect prompt injection research."
+      },
+      {
+        "title": "Armorer Guard",
+        "url": "https://github.com/ArmorerLabs/Armorer-Guard",
+        "type": "Tool",
+        "rating": 8,
+        "description": "SDKs and integration contracts for a guard that screens AI-agent tool calls for prompt injection, credential leakage and exfiltration before execution."
+      },
+      {
+        "title": "hego.red",
+        "url": "https://hego.red/",
+        "type": "Article",
+        "rating": 8,
+        "description": "Hands-on notes on LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG and agent testing, with a scoping methodology and worked labs."
+      },
+      {
+        "title": "Koma",
+        "url": "https://github.com/swnotmetal/Project-Koma",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Zero-dependency Node.js and TypeScript library that filters prompt injection, audio hallucinations and RAG scraping at the application boundary."
+      },
+      {
+        "title": "Sentinel Scan CLI",
+        "url": "https://github.com/Ventrova/sentinel-scan-cli",
+        "type": "Tool",
+        "rating": 8,
+        "description": "CLI and MCP server that scans MCP manifests for tool poisoning and rug-pulls, and runs a prompt injection and jailbreak suite against your own LLM endpoint."
+      },
+      {
+        "title": "RansomLeak AI Security Training",
+        "url": "https://ransomleak.com/catalogue/ai-security/",
+        "type": "Article",
+        "rating": 8,
+        "description": "Browser-based labs on prompt injection, jailbreaking and LLM attack scenarios, mapped to the OWASP Top 10 for LLM and agentic AI. Commercial training."
+      },
+      {
+        "title": "Skill-audit",
+        "url": "https://github.com/AgentPostmortem/Skill-audit",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies."
       }
     ],
     "x": -1.8,
@@ -286,13 +370,6 @@ export const graphData: NodeData[] = [
         "type": "Paper",
         "rating": 8,
         "description": "Activation-based detection effective against advanced backdoors. NDSS 2024."
-      },
-      {
-        "title": "OWASP Top 10 for LLM Applications 2025",
-        "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
-        "type": "Article",
-        "rating": 8,
-        "description": "Critical risks including prompt injection, sensitive info disclosure, supply chain, and data poisoning."
       }
     ],
     "x": -1.9440000000000002,
@@ -364,11 +441,11 @@ export const graphData: NodeData[] = [
         "description": "Curated list of 100+ papers on privacy attacks against machine learning."
       },
       {
-        "title": "LLM Security Papers (chawins/llm-sp)",
-        "url": "https://github.com/chawins/llm-sp",
-        "type": "Paper",
+        "title": "SecuredAI",
+        "url": "https://securedai.com/",
+        "type": "Tool",
         "rating": 8,
-        "description": "Papers and resources on LLM security and privacy including indirect prompt injection research."
+        "description": "Client-side prompt DLP for privacy: detects and masks PII and PHI before a prompt reaches the model, then restores the originals locally. Commercial."
       }
     ],
     "x": -2.088,
@@ -384,6 +461,13 @@ export const graphData: NodeData[] = [
     "description": "Security tools for testing and defending AI systems against adversarial attacks.",
     "resources": [
       {
+        "title": "APort",
+        "url": "https://aport.io",
+        "type": "Tool",
+        "rating": 8,
+        "description": "AI agent identity verification and policy enforcement for autonomous systems."
+      },
+      {
         "title": "Counterfit",
         "url": "https://github.com/Azure/counterfit",
         "type": "Tool",
@@ -391,25 +475,11 @@ export const graphData: NodeData[] = [
         "description": "Microsoft penetration testing tool for ML systems."
       },
       {
-        "title": "AI Coding Tools Exploded in 2025: The First Security Exploits Followed",
-        "url": "https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/",
-        "type": "Article",
+        "title": "Whistleblower",
+        "url": "https://github.com/Repello-AI/whistleblower",
+        "type": "Tool",
         "rating": 8,
-        "description": "Discusses vulnerabilities in AI-generated code."
-      },
-      {
-        "title": "AI Agent Exploit Generation in Smart Contracts",
-        "url": "https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation",
-        "type": "Paper",
-        "rating": 8,
-        "description": "Autonomous exploit generation using LLMs."
-      },
-      {
-        "title": "AI-Powered Attack Automation: When Machine Learning Writes the Exploit Code",
-        "url": "https://medium.com/@instatunnel/wwai-powered-attack-automation-when-machine-learning-writes-the-exploit-code-9eb00af91a51",
-        "type": "Article",
-        "rating": 8,
-        "description": "Projections on AI-driven cyberattacks."
+        "description": "Repello AI's offensive tool for testing LLM applications against system prompt leakage attacks."
       },
       {
         "title": "NeMo Guardrails",
@@ -431,6 +501,69 @@ export const graphData: NodeData[] = [
         "type": "Tool",
         "rating": 8,
         "description": "Open-source LLM safety tools including Llama Guard, Prompt Guard, Code Shield, and CyberSec Eval benchmarks."
+      },
+      {
+        "title": "Agent-Wiz",
+        "url": "https://github.com/Repello-AI/Agent-Wiz",
+        "type": "Tool",
+        "rating": 8,
+        "description": "CLI that extracts agent workflows from LangChain, LangGraph, CrewAI and AutoGen and runs threat modeling over the resulting graphs."
+      },
+      {
+        "title": "ai-evaluation",
+        "url": "https://github.com/future-agi/ai-evaluation",
+        "type": "Tool",
+        "rating": 8,
+        "description": "LLM evaluation framework with 50+ metrics, LLM-as-judge and guardrail scanners covering injection, PII and unsafe-output checks."
+      },
+      {
+        "title": "SkilLock",
+        "url": "https://github.com/skills-lock/skil-lock",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Behavior-pinning lockfile and capability-delta review for agent skills; blocks unapproved drift in shell, network and file access in CI with SARIF output."
+      },
+      {
+        "title": "Nika",
+        "url": "https://github.com/supernovae-st/nika",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Rust workflow engine for AI runs with hash-chained execution traces, default-deny allowlists for shell, network, file and tool access, and static secret-flow analysis."
+      },
+      {
+        "title": "SourceryKit",
+        "url": "https://github.com/ProvablyAI/sourcerykit",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Python SDK that checks an agent's tool calls and MCP handoffs against a trusted-endpoint allowlist and records the provenance of each answer."
+      },
+      {
+        "title": "AI Security Registry",
+        "url": "https://forefy.com/asr",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Registry of skills, goals and workflows for AI agents, with git-pinned versions reviewed before each update."
+      },
+      {
+        "title": "sofagent",
+        "url": "https://github.com/KongFangXun/sofagent",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Harness for governing AI coding agents: commit-time audit rules over git diffs, an HMAC-signed audit trail and snapshot rollback, exposed as an MCP toolset."
+      },
+      {
+        "title": "Bifrost",
+        "url": "https://github.com/maximhq/bifrost",
+        "type": "Tool",
+        "rating": 8,
+        "description": "AI gateway unifying access to model providers and MCP servers, with guardrails, approvals, audit logs and access control at the edge."
+      },
+      {
+        "title": "KeyDrift",
+        "url": "https://keydrift.dev",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Scans deployed HTML and JavaScript for secrets that AI-generated code inlines into the client bundle, separating public browser credentials from real leaks."
       }
     ],
     "x": -2.232,
@@ -487,6 +620,13 @@ export const graphData: NodeData[] = [
         "type": "Paper",
         "rating": 8,
         "description": "Design and evaluation of autonomous pentesting. arXiv:2308.06782, 2024."
+      },
+      {
+        "title": "Darkmoon",
+        "url": "https://github.com/ASCIT31/Dark-Moon",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Open-source autonomous pentest platform with specialist agents for web, API, Active Directory, Kubernetes, IoT and LLM/MCP endpoints. Runs against a local model and proves each finding with a reproduction."
       }
     ],
     "x": 1.8,
@@ -501,6 +641,13 @@ export const graphData: NodeData[] = [
     "category": "Vulnerability Detection",
     "description": "AI-powered vulnerability scanning, code analysis, and bug detection.",
     "resources": [
+      {
+        "title": "AI Coding Tools Exploded in 2025: The First Security Exploits Followed",
+        "url": "https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/",
+        "type": "Article",
+        "rating": 8,
+        "description": "Discusses vulnerabilities in AI-generated code."
+      },
       {
         "title": "A Survey of Bugs in AI-Generated Code",
         "url": "https://arxiv.org/abs/2512.05239",
@@ -571,11 +718,25 @@ export const graphData: NodeData[] = [
         "description": "GPT-4 agents can exploit real CVEs given descriptions. Raises questions about LLM deployment. arXiv:2404.08144, 2024."
       },
       {
+        "title": "AI Agent Exploit Generation in Smart Contracts",
+        "url": "https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation",
+        "type": "Paper",
+        "rating": 8,
+        "description": "Autonomous exploit generation using LLMs."
+      },
+      {
         "title": "OWASP Gen AI Incident & Exploit Round-up, Q2'25",
         "url": "https://genai.owasp.org/2025/07/14/owasp-gen-ai-incident-exploit-round-up-q225/",
         "type": "Paper",
         "rating": 8,
         "description": "Tracks exploits targeting/involving GenAI."
+      },
+      {
+        "title": "AI-Powered Attack Automation: When Machine Learning Writes the Exploit Code",
+        "url": "https://medium.com/@instatunnel/wwai-powered-attack-automation-when-machine-learning-writes-the-exploit-code-9eb00af91a51",
+        "type": "Article",
+        "rating": 8,
+        "description": "Projections on AI-driven cyberattacks."
       }
     ],
     "x": 1.9440000000000002,
@@ -667,18 +828,18 @@ export const graphData: NodeData[] = [
         "description": "Smart contract audit benchmark with 500+ real-world vulnerabilities from Code4rena, Cantina, and Sherlock for evaluating AI audit agents."
       },
       {
+        "title": "International AI Safety Report 2025",
+        "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+        "type": "Paper",
+        "rating": 8,
+        "description": "Summarizes evidence on general-purpose AI safety, including robustness."
+      },
+      {
         "title": "RobustBench",
         "url": "https://robustbench.github.io/",
         "type": "Article",
         "rating": 8,
         "description": "Leaderboard for adversarial robustness benchmarking."
-      },
-      {
-        "title": "JailbreakBench",
-        "url": "https://jailbreakbench.github.io/",
-        "type": "Article",
-        "rating": 8,
-        "description": "Benchmark for LLM jailbreak attacks and defenses."
       },
       {
         "title": "Stanford AIR-Bench 2024",
@@ -707,6 +868,13 @@ export const graphData: NodeData[] = [
         "type": "Article",
         "rating": 8,
         "description": "Framework for managing AI risks throughout the AI lifecycle."
+      },
+      {
+        "title": "Agent Threat Rules (ATR)",
+        "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules",
+        "type": "Article",
+        "rating": 8,
+        "description": "Open detection-rule standard for AI agent threats across ten categories, with MITRE ATLAS and OWASP crosswalks. Sigma-style executable rules, MIT-licensed."
       }
     ],
     "x": 0,

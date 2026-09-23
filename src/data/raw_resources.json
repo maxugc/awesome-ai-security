@@ -134,6 +134,12 @@
     "category": "Tools"
   },
   {
+    "title": "APort",
+    "url": "https://aport.io",
+    "description": "AI agent identity verification and policy enforcement for autonomous systems.",
+    "category": "Tools"
+  },
+  {
     "title": "Counterfit",
     "url": "https://github.com/Azure/counterfit",
     "description": "Microsoft penetration testing tool for ML systems.",
@@ -161,6 +167,18 @@
     "title": "EasyJailbreak",
     "url": "https://github.com/EasyJailbreak/EasyJailbreak",
     "description": "Framework for adversarial jailbreak prompts.",
+    "category": "Tools"
+  },
+  {
+    "title": "Prompt Shield",
+    "url": "https://github.com/mthamil107/prompt-shield",
+    "description": "Open-source prompt injection detection engine with 27 detectors and cross-domain techniques from bioinformatics and forensic linguistics.",
+    "category": "Tools"
+  },
+  {
+    "title": "Agent Browser Shield",
+    "url": "https://github.com/pixiebrix/agent-browser-shield",
+    "description": "Browser extension that strips prompt injection (hidden text and HTML comments) from web pages before an AI agent's model sees them; also masks PII and removes dark patterns.",
     "category": "Tools"
   },
   {
@@ -287,6 +305,12 @@
     "title": "CAI: Cybersecurity AI",
     "url": "https://github.com/aliasrobotics/cai",
     "description": "Framework for building AI-driven security tools by Alias Robotics.",
+    "category": "Tools"
+  },
+  {
+    "title": "Whistleblower",
+    "url": "https://github.com/Repello-AI/whistleblower",
+    "description": "Repello AI's offensive tool for testing LLM applications against system prompt leakage attacks.",
     "category": "Tools"
   },
   {
@@ -558,5 +582,113 @@
     "url": "https://github.com/chawins/llm-sp",
     "description": "Papers and resources on LLM security and privacy including indirect prompt injection research.",
     "category": "Awesome Lists"
+  },
+  {
+    "title": "Agent-Wiz",
+    "url": "https://github.com/Repello-AI/Agent-Wiz",
+    "description": "CLI that extracts agent workflows from LangChain, LangGraph, CrewAI and AutoGen and runs threat modeling over the resulting graphs.",
+    "category": "Tools"
+  },
+  {
+    "title": "ai-evaluation",
+    "url": "https://github.com/future-agi/ai-evaluation",
+    "description": "LLM evaluation framework with 50+ metrics, LLM-as-judge and guardrail scanners covering injection, PII and unsafe-output checks.",
+    "category": "Tools"
+  },
+  {
+    "title": "SkilLock",
+    "url": "https://github.com/skills-lock/skil-lock",
+    "description": "Behavior-pinning lockfile and capability-delta review for agent skills; blocks unapproved drift in shell, network and file access in CI with SARIF output.",
+    "category": "Tools"
+  },
+  {
+    "title": "Armorer Guard",
+    "url": "https://github.com/ArmorerLabs/Armorer-Guard",
+    "description": "SDKs and integration contracts for a guard that screens AI-agent tool calls for prompt injection, credential leakage and exfiltration before execution.",
+    "category": "Tools"
+  },
+  {
+    "title": "hego.red",
+    "url": "https://hego.red/",
+    "description": "Hands-on notes on LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG and agent testing, with a scoping methodology and worked labs.",
+    "category": "Articles"
+  },
+  {
+    "title": "SecuredAI",
+    "url": "https://securedai.com/",
+    "description": "Client-side prompt DLP for privacy: detects and masks PII and PHI before a prompt reaches the model, then restores the originals locally. Commercial.",
+    "category": "Tools"
+  },
+  {
+    "title": "Darkmoon",
+    "url": "https://github.com/ASCIT31/Dark-Moon",
+    "description": "Open-source autonomous pentest platform with specialist agents for web, API, Active Directory, Kubernetes, IoT and LLM/MCP endpoints. Runs against a local model and proves each finding with a reproduction.",
+    "category": "Tools"
+  },
+  {
+    "title": "Agent Threat Rules (ATR)",
+    "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules",
+    "description": "Open detection-rule standard for AI agent threats across ten categories, with MITRE ATLAS and OWASP crosswalks. Sigma-style executable rules, MIT-licensed.",
+    "category": "Standards"
+  },
+  {
+    "title": "Nika",
+    "url": "https://github.com/supernovae-st/nika",
+    "description": "Rust workflow engine for AI runs with hash-chained execution traces, default-deny allowlists for shell, network, file and tool access, and static secret-flow analysis.",
+    "category": "Tools"
+  },
+  {
+    "title": "SourceryKit",
+    "url": "https://github.com/ProvablyAI/sourcerykit",
+    "description": "Python SDK that checks an agent's tool calls and MCP handoffs against a trusted-endpoint allowlist and records the provenance of each answer.",
+    "category": "Tools"
+  },
+  {
+    "title": "Koma",
+    "url": "https://github.com/swnotmetal/Project-Koma",
+    "description": "Zero-dependency Node.js and TypeScript library that filters prompt injection, audio hallucinations and RAG scraping at the application boundary.",
+    "category": "Tools"
+  },
+  {
+    "title": "Sentinel Scan CLI",
+    "url": "https://github.com/Ventrova/sentinel-scan-cli",
+    "description": "CLI and MCP server that scans MCP manifests for tool poisoning and rug-pulls, and runs a prompt injection and jailbreak suite against your own LLM endpoint.",
+    "category": "Tools"
+  },
+  {
+    "title": "AI Security Registry",
+    "url": "https://forefy.com/asr",
+    "description": "Registry of skills, goals and workflows for AI agents, with git-pinned versions reviewed before each update.",
+    "category": "Tools"
+  },
+  {
+    "title": "RansomLeak AI Security Training",
+    "url": "https://ransomleak.com/catalogue/ai-security/",
+    "description": "Browser-based labs on prompt injection, jailbreaking and LLM attack scenarios, mapped to the OWASP Top 10 for LLM and agentic AI. Commercial training.",
+    "category": "Articles"
+  },
+  {
+    "title": "sofagent",
+    "url": "https://github.com/KongFangXun/sofagent",
+    "description": "Harness for governing AI coding agents: commit-time audit rules over git diffs, an HMAC-signed audit trail and snapshot rollback, exposed as an MCP toolset.",
+    "category": "Tools"
+  },
+  {
+    "title": "Skill-audit",
+    "url": "https://github.com/AgentPostmortem/Skill-audit",
+    "description": "Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies.",
+    "category": "Tools"
+  },
+  {
+    "title": "Bifrost",
+    "url": "https://github.com/maximhq/bifrost",
+    "description": "AI gateway unifying access to model providers and MCP servers, with guardrails, approvals, audit logs and access control at the edge.",
+    "category": "Tools"
+  },
+  {
+    "title": "KeyDrift",
+    "url": "https://keydrift.dev",
+    "description": "Scans deployed HTML and JavaScript for secrets that AI-generated code inlines into the client bundle, separating public browser credentials from real leaks.",
+    "category": "Tools"
   }
 ]
