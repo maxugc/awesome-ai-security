@@ -138,6 +138,7 @@ Industry standards, threat frameworks, and evaluation benchmarks for AI security
 - [FLI AI Safety Index 2024](https://futureoflife.org/wp-content/uploads/2024/12/AI-Safety-Index-2024-Full-Report-11-Dec-24.pdf) - Future of Life Institute's assessment of AI company safety practices and accountability.
 - [MITRE ATLAS](https://atlas.mitre.org/) - Adversarial Threat Landscape for AI Systems. Threat matrix documenting real-world attacks on ML (like ATT&CK for AI).
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - Framework for managing AI risks throughout the AI lifecycle.
+- [Agent Threat Rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - Open MIT-licensed detection-rule standard for AI agent threats (prompt injection, tool poisoning, MCP attacks, context exfiltration) across 10 categories, with MITRE ATLAS and OWASP crosswalks.
 
 ### Books
 Essential books covering AI security, adversarial ML, and security applications.
