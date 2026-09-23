@@ -29,6 +29,7 @@
   --accent-amber: #ffb300;
   --accent-orange: #ff9500;
   --accent-rose: #fb5a78;
+  --wash-primary: var(--wash-purple);
   --accent-primary: var(--accent-purple);
 
   /* accent washes, kept separate so light mode can be gentler */

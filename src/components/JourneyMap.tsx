@@ -405,7 +405,7 @@ const TimelinePill: React.FC<{ label: string; active: boolean; onClick: () => vo
         className={clsx(
             'timeline-node flex-shrink-0 rounded-md border px-3 py-1.5 text-xs font-medium',
             active
-                ? 'border-[var(--accent-primary)] bg-[var(--wash-purple)] text-[var(--accent-primary)]'
+                ? 'border-[var(--accent-primary)] bg-[var(--wash-primary)] text-[var(--accent-primary)]'
                 : 'border-[var(--border-color)] bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:border-[var(--border-strong)] hover:text-[var(--text-primary)]'
         )}
     >
