@@ -98,6 +98,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Nika](https://github.com/supernovae-st/nika) - Rust workflow engine for AI with verifiable execution: hash-chained tamper-evident run traces, default-deny permit allowlists (shell, network, file, tool), and static secret-flow analysis that blocks exfiltration paths before a run starts.
 - [sofagent](https://github.com/KongFangXun/sofagent) - Open-source harness for governing AI coding agents: 24 commit-time audit rules over git diffs (secrets, out-of-scope edits, prompt injection) with HMAC-signed audit trail and snapshot rollback; a full MCP toolset.
 - [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Python SDK that verifies an AI agent's outbound calls and MCP handoffs against a source of truth using zero-knowledge proofs, then blocks anything not on the trusted-endpoint allow-list and logs every call.
+- [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Security scanner for AI agent skills: flags prompt injection, dangerous shell, and secret access before you install.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
