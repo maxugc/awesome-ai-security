@@ -86,6 +86,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Purple Llama (Meta)](https://github.com/meta-llama/PurpleLlama) - Open-source LLM safety tools including Llama Guard, Prompt Guard, Code Shield, and CyberSec Eval benchmarks.
 - [Agent-Wiz](https://github.com/Repello-AI/Agent-Wiz) - Repello AI's open-source CLI that extracts agentic workflows from LangChain/LangGraph/CrewAI/AutoGen and runs automated threat modeling against the resulting graphs.
 - [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, prompt-injection) for systematic AI security testing.
+- [Koma](https://github.com/swnotmetal/Project-Koma) - A zero-dependency AI firewall especially for Node.js & TypeScript. Drop-in defense for prompt injection, voice hallucinations, and RAG data scraping.
 - [SkilLock](https://github.com/skills-lock/skil-lock) - Behavior-pinning lockfile and capability-delta PR review for Claude Code and Codex agent skills; blocks unapproved drift (shell, network, file access) in CI with SARIF output for Code Scanning.
 - [Nika](https://github.com/supernovae-st/nika) - Rust workflow engine for AI with verifiable execution: hash-chained tamper-evident run traces, default-deny permit allowlists (shell, network, file, tool), and static secret-flow analysis that blocks exfiltration paths before a run starts.
 
