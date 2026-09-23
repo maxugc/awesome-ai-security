@@ -1,3 +1,4 @@
+
 # Awesome AI Security
 
 A curated, annotated list of resources for AI security.
@@ -99,6 +100,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [sofagent](https://github.com/KongFangXun/sofagent) - Open-source harness for governing AI coding agents: 24 commit-time audit rules over git diffs (secrets, out-of-scope edits, prompt injection) with HMAC-signed audit trail and snapshot rollback; a full MCP toolset.
 - [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Python SDK that verifies an AI agent's outbound calls and MCP handoffs against a source of truth using zero-knowledge proofs, then blocks anything not on the trusted-endpoint allow-list and logs every call.
 - [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Security scanner for AI agent skills: flags prompt injection, dangerous shell, and secret access before you install.
+- [SecuredAI](https://securedai.com/) - Client-side prompt DLP that detects and masks PII/PHI before prompts reach the model (OpenAI/DeepSeek), restoring the originals locally via a zero-knowledge vault.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
