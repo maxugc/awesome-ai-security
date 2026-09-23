@@ -74,6 +74,7 @@ Model extraction, membership inference, and training data extraction attacks.
 Security tools for testing and defending AI systems against adversarial attacks.
 
 - [APort](https://aport.io) - AI agent identity verification and policy enforcement for autonomous systems.
+- [Bifrost Edge](https://github.com/maximhq/bifrost) - Endpoint governance for AI apps and MCP servers with guardrails, approvals, audit logs, and device management.
 
 - [Counterfit](https://github.com/Azure/counterfit) - Microsoft penetration testing tool for ML systems.
 - [AI Coding Tools Exploded in 2025: The First Security Exploits Followed](https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/) - Discusses vulnerabilities in AI-generated code.
