@@ -548,6 +548,27 @@
         "type": "Tool",
         "rating": 8,
         "description": "Scans deployed HTML and JavaScript for secrets that AI-generated code inlines into the client bundle, separating public browser credentials from real leaks."
+      },
+      {
+        "title": "AgentShield",
+        "url": "https://github.com/elliotllliu/agent-shield",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Scanner for MCP servers, agent skills and plugins that runs thirteen engines over a package and returns one report. Runs offline via npx with no install."
+      },
+      {
+        "title": "SpecLock",
+        "url": "https://github.com/sgroy10/speclock",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Enforces the constraints written in CLAUDE.md, AGENTS.md and .cursorrules before an AI coding agent edits a file, runs a shell command or commits, with an override audit trail and an MCP server."
+      },
+      {
+        "title": "rust-norion",
+        "url": "https://github.com/yanghao1143/rust-norion",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible."
       }
     ]
   },

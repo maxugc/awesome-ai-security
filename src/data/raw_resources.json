@@ -690,5 +690,23 @@
     "url": "https://keydrift.dev",
     "description": "Scans deployed HTML and JavaScript for secrets that AI-generated code inlines into the client bundle, separating public browser credentials from real leaks.",
     "category": "Tools"
+  },
+  {
+    "title": "AgentShield",
+    "url": "https://github.com/elliotllliu/agent-shield",
+    "description": "Scanner for MCP servers, agent skills and plugins that runs thirteen engines over a package and returns one report. Runs offline via npx with no install.",
+    "category": "Tools"
+  },
+  {
+    "title": "SpecLock",
+    "url": "https://github.com/sgroy10/speclock",
+    "description": "Enforces the constraints written in CLAUDE.md, AGENTS.md and .cursorrules before an AI coding agent edits a file, runs a shell command or commits, with an override audit trail and an MCP server.",
+    "category": "Tools"
+  },
+  {
+    "title": "rust-norion",
+    "url": "https://github.com/yanghao1143/rust-norion",
+    "description": "Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible.",
+    "category": "Tools"
   }
 ]
