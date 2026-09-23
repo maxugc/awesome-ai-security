@@ -124,6 +124,7 @@ Tools that leverage AI for offensive security operations and analysis.
 - [PyRIT (Python Risk Identification Tool)](https://github.com/Azure/PyRIT) - Microsoft red-teaming framework for generative AI. Automates adversarial prompt generation and risk assessment.
 - [AI Security Analyzer](https://github.com/xvnpw/ai-security-analyzer) - Generates security docs from codebases.
 - [BurpGPT](https://github.com/aress31/burpgpt) - Burp Suite extension for AI-powered vulnerability scanning.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open-source autonomous AI penetration testing platform and MCP host with per-technology offensive sub-agents (GraphQL, Spring, .NET, Node, PHP, Ruby, WordPress), Active Directory and Kubernetes coverage, and an evidence trail per finding. Orchestrates 80+ offensive tools via MCP.
 - [CAI: Cybersecurity AI](https://github.com/aliasrobotics/cai) - Framework for building AI-driven security tools by Alias Robotics.
 - [Whistleblower](https://github.com/Repello-AI/whistleblower) - Repello AI's offensive tool for testing LLM applications against system prompt leakage attacks.
 
